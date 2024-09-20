@@ -1,0 +1,43 @@
+{
+    "Fundamentals": {
+        "ExomoonSource": true,
+        "DopplerPlanetRotation": false,
+        "CLV_variations": false,
+        "RM_effect": false,
+        "DopplerOrbitalMotion": false
+    },
+    "Architecture": {
+        "planetName": "WASP-39b",
+        "R_moon": 182200000.0,
+        "a_moon": 15890367000.0,
+        "starting_orbphase_moon": 1.5707963267948966
+    },
+    "Scenarios": {
+        "exomoon": {
+            "q_moon": 4.34
+        }
+    },
+    "Species": {
+        "exomoon": {
+            "Na": {
+                "sigma_v": 2000000.0,
+                "Nparticles": 6.64421519233178e+32
+            }
+        }
+    },
+    "Grids": {
+        "lower_w": 5.888e-05,
+        "upper_w": 5.898e-05,
+        "resolutionLow": 1e-08,
+        "widthHighRes": 7.500000000000001e-09,
+        "resolutionHigh": 1e-09,
+        "x_midpoint": 727056000000.0,
+        "x_border": 532638000000.0,
+        "x_steps": 100.0,
+        "phi_steps": 100.0,
+        "rho_steps": 100.0,
+        "upper_rho": 62292000000.0,
+        "orbphase_border": 1.5707963267948966,
+        "orbphase_steps": 100.0
+    }
+}
