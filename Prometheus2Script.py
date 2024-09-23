@@ -53,7 +53,7 @@ def get_params(element, Nparticles):
             "x_steps": 50.0,
             "phi_steps": 50.0,
             "rho_steps": 50.0,
-            "upper_rho": 62292000000.0,
+            "upper_rho": 5275680000,
             "orbphase_border": 0.,
             "orbphase_steps": 1.
         }
